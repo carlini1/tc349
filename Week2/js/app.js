@@ -1,3 +1,3 @@
-function hello() {
-		alert("Hello, World!");
+function browser() {
+		alert("You're using " + navigator.appName);
 }
