@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 20px 0px;
+	background: #CCC;
+}
+
+.container {
+	width: 750px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px;
+}
+
+h1 {
+	color: #606;
+}
+
+article {
+	margin-top: 10px;
+}
+
+section {
+	border: dashed 5px #606;
+	width: 400px;
+	margin: 10px;
+	padding: 5px;
+}
+
+h2 {
+	padding-left: 10px;
+}
+
+ol {
+	list-style-type: none;
+
+}
+
+ol li {
+	display: inline-block;
+}
+
+ol li a {
+	text-decoration: none;
+	padding: 10px;
+}
+
