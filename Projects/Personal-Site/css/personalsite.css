@@ -5,34 +5,45 @@ body {
 }
 
 .container {
-	width: 750px;
+	width: 934px;
 	margin: 0 auto;
 	background: #fff;
-	padding: 10px;
+}
+
+header {
+	text-align: center;
+	padding: 20px;
 }
 
 h1 {
 	color: #606;
 }
 
-article {
-	margin-top: 10px;
+section {
+	margin: 20px;
 }
 
-section {
-	border: dashed 5px #606;
-	width: 400px;
-	margin: 10px;
-	padding: 5px;
+article {
+	float: left;
+	width: 425px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+footer {
+	border: dashed 3px #606;
+	width: 425px;
+	height: 100px;
+	margin: 0 auto;
+	clear: both;
 }
 
 h2 {
-	padding-left: 10px;
+	text-align: center;
 }
 
 ol {
 	list-style-type: none;
-
 }
 
 ol li {
@@ -42,5 +53,6 @@ ol li {
 ol li a {
 	text-decoration: none;
 	padding: 10px;
+	margin: 0;
 }
 
