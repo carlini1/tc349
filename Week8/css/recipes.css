@@ -1,5 +1,5 @@
 body {
-	background: url(images/bg.png);
+	background: url(../images/bg.png);
 	margin: 0;
 	font-family: "etica-display";
 	line-height: 1.4em;
@@ -10,7 +10,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	background: url(images/logo.png) no-repeat;
+	background: url(../images/logo.png) no-repeat;
 	height: 100px;
 	width: 800px;
 	text-indent: -9000px;
@@ -40,7 +40,7 @@ hgroup {
 
 #recipes {
 	padding: 15px;
-	background: #fff url(images/yum.jpg) no-repeat;
+	background: #fff url(../images/yum.jpg) no-repeat;
 	border-top: 10px solid #222;
 	box-shadow: 0 0 20px #424242;
 }
