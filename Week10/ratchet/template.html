@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Set Apple icons for when prototype is saved to home screen -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="touch-icons/apple-touch-icon-57x57.png">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link rel="stylesheet" href="ratchet.css">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet.js"></script>
+
+    <!-- Intro paragraph styles. Delete once you start using this page -->
+    <style type="text/css">
+        .welcome {
+          line-height: 1.5;
+          color: #555;
+        }
+    </style>
+
+  </head>
+  <body>
+
+  <!-- Make sure all your bars are the first things in your <body> -->
+  
+  <header class="bar-title">
+  <h1 class="title">My Great Mobile Site</h1>
+  <div id="myPopover" class="popover">
+  <header class="popover-header">
+    <a class="button" href="#">
+      Left
+    </a>
+    <h3 class="title">Popover title</h3>
+    <a class="button" href="#">
+      Right
+    </a>
+  </header>
+  <ul class="list">
+    <li>Home</li>
+    <li>Link</li>
+    <li>Link</li>
+  </ul>
+</div>
+  </header>
+  
+
+
+  <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+  <div class="content">
+  	<ul class="list">
+  <li>
+    <a href="#">
+      Navigation
+      <span class="chevron"></span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      Navigation
+      <span class="chevron"></span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      Navigation
+      <span class="chevron"></span>
+    </a>
+  </li>
+</ul>
+
+<ul class="segmented-controller">
+  <li class="active">
+    <a href="#item1">Left</a>
+  </li>
+  <li>
+    <a href="#item2">Middle</a>
+  </li>
+  <li>
+    <a href="#item3">Right</a>
+  </li>
+</ul>
+
+    <div class="content-padded">
+      <p class="welcome">In at elit libero, et varius massa. Fusce ornare sagittis ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus a facilisis erat. Praesent quam tellus, pulvinar id auctor ac, consectetur ut ligula. Pellentesque adipiscing tristique mi id laoreet. Mauris commodo dignissim lacus, at congue elit hendrerit in. Aenean sollicitudin nulla at lectus suscipit facilisis. Etiam fermentum accumsan facilisis. Phasellus nec lorem quis sem imperdiet aliquet. Sed vel ante sed arcu semper viverra. Fusce mattis, libero non malesuada interdum, velit turpis mollis metus, at sollicitudin felis urna in felis. Suspendisse potenti. Suspendisse ac lectus ac orci congue vestibulum.</p>
+                    <p class="welcome">In at elit libero, et varius massa. Fusce ornare sagittis ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus a facilisis erat. Praesent quam tellus, pulvinar id auctor ac, consectetur ut ligula. Pellentesque adipiscing tristique mi id laoreet. Mauris commodo dignissim lacus, at congue elit hendrerit in. Aenean sollicitudin nulla at lectus suscipit facilisis. Etiam fermentum accumsan facilisis. Phasellus nec lorem quis sem imperdiet aliquet. Sed vel ante sed arcu semper viverra. Fusce mattis, libero non malesuada interdum, velit turpis mollis metus, at sollicitudin felis urna in felis. Suspendisse potenti. Suspendisse ac lectus ac orci congue vestibulum.</p>
+    </div>
+    <span class="count">1</span>
+<span class="count-main">2</span>
+<span class="count-positive">3</span>
+<span class="count-negative">4</span>
+
+
+    
+  </div>
+
+  </body>
+</html>
